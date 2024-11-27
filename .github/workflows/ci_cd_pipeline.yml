@@ -26,4 +26,4 @@ jobs:
     # Ejecuta pruebas unitarias
     - name: Ejecutar pruebas
       run: |
-        pytest tests/ # Cambia la ruta si es diferente
+        python TestOperacionesMatematicas.py # Cambia la ruta si es diferente
