@@ -27,3 +27,8 @@ jobs:
     - name: Ejecutar pruebas
       run: |
         python TestOperacionesMatematicas.py # Cambia la ruta si es diferente
+
+    - name: Deploy
+      run: |
+        python main.py # Cambia la ruta si es diferente
+      
